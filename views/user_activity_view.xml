@@ -50,5 +50,13 @@
         <field name="res_model">user.recent.log</field>
         <field name="view_mode">tree,form</field>
     </record>
+
+    <menuitem
+        id="recent_logs"
+        name="Recent Logs"
+        parent="base.menu_administration"
+        sequence="3"
+        action="action_user_activity"
+        groups="base.group_system"/>
 </data>
 </odoo>

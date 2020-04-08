@@ -27,7 +27,7 @@
         'views/custom_xml.xml',
 
     ],
-    'qweb': ['static/src/xml/user_menu_template.xml'],
+    #'qweb': ['static/src/xml/user_menu_template.xml'],
     'images': [
         'static/description/banner.jpg',
     ],
